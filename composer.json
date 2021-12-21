@@ -1,0 +1,29 @@
+{
+    "name": "jecar/commerce",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Jecar\\Commerce\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jecar",
+            "email": "carojefte@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "jecar/core": "*",
+        "laravel/framework": "^7|^8"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jecar\\Commerce\\Providers\\ServiceProvider"
+            ]
+        }
+    }
+
+}
